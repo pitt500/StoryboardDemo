@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B5F759C320648A68008857B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F759C220648A68008857B8 /* AppDelegate.swift */; };
-		B5F759C520648A68008857B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F759C420648A68008857B8 /* ViewController.swift */; };
+		B5F759C520648A68008857B8 /* AmiiboListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F759C420648A68008857B8 /* AmiiboListViewController.swift */; };
 		B5F759C820648A68008857B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F759C620648A68008857B8 /* Main.storyboard */; };
 		B5F759CA20648A68008857B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F759C920648A68008857B8 /* Assets.xcassets */; };
 		B5F759CD20648A68008857B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F759CB20648A68008857B8 /* LaunchScreen.storyboard */; };
+		B5F759D620648C22008857B8 /* Amiibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F759D520648C22008857B8 /* Amiibo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B5F759BF20648A68008857B8 /* StoryboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F759C220648A68008857B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5F759C420648A68008857B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5F759C420648A68008857B8 /* AmiiboListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboListViewController.swift; sourceTree = "<group>"; };
 		B5F759C720648A68008857B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5F759C920648A68008857B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5F759CC20648A68008857B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5F759CE20648A68008857B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F759D520648C22008857B8 /* Amiibo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amiibo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		B5F759C120648A68008857B8 /* StoryboardDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B5F759D420648C17008857B8 /* Model */,
 				B5F759C220648A68008857B8 /* AppDelegate.swift */,
-				B5F759C420648A68008857B8 /* ViewController.swift */,
+				B5F759C420648A68008857B8 /* AmiiboListViewController.swift */,
 				B5F759C620648A68008857B8 /* Main.storyboard */,
 				B5F759C920648A68008857B8 /* Assets.xcassets */,
 				B5F759CB20648A68008857B8 /* LaunchScreen.storyboard */,
 				B5F759CE20648A68008857B8 /* Info.plist */,
 			);
 			path = StoryboardDemo;
+			sourceTree = "<group>";
+		};
+		B5F759D420648C17008857B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5F759D520648C22008857B8 /* Amiibo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F759C520648A68008857B8 /* ViewController.swift in Sources */,
+				B5F759D620648C22008857B8 /* Amiibo.swift in Sources */,
+				B5F759C520648A68008857B8 /* AmiiboListViewController.swift in Sources */,
 				B5F759C320648A68008857B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
